@@ -1,0 +1,38 @@
+header div div button {
+    width: 100%;
+}
+/* maakt de afbeelding rond */
+main div img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 3px solid black;
+    padding: 0;
+}
+/*hr at the end of each animal div*/
+main div hr {
+    margin-top: 15px;
+}
+/*text next to make new button*/
+main div div b {
+    margin-left: 10px;
+}
+
+/* uitroep teken */
+.petAlert {
+    color: red;
+    font-size: 50px;
+    margin-top: -10px;
+}
+/* namen dier  */
+.petName {
+    font-weight: 600;
+    font-size: 20px;
+}
+/* alert */
+.alertInfo {
+    margin-top: -20px;
+}
+button{
+    border-radius: 10px;
+}
