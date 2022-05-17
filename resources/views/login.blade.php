@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-3"></div>
     <div class="col-6">
-      <img id ="logo" src="../../assets/images/logo.png"/>
+      <img id ="logo" src="images/logo.jpg"/>
     </div>
     <div class="col-3"></div>
   </div>
