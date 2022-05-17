@@ -21,6 +21,14 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/makeEdit', function () {
+    return view('makeEdit');
+});
+
+Route::get('/mainpage', function () {
+    return view('mainpage');
+});
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
