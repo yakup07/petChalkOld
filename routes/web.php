@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('pages.login');
 });
 
 Route::get('/makeEdit', function () {
